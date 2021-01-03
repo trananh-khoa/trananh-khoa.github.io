@@ -24,6 +24,7 @@ This repository [trananh-khoa.github.io](https://github.com/trananh-khoa/trananh
     - [Clone source repository](#clone-source-repository)
     - [Install necessary packages and dependencies](#install-necessary-packages-and-dependencies)
 - [Development and Production](#development-and-production)
+  - [VSCode Setup](#vscode-setup)
   - [Nuxt Commands](#nuxt-commands)
   - [Source Control](#source-control)
 - [Deployment](#deployment)
@@ -69,6 +70,18 @@ yarn install
 ```
 
 ## Development and Production
+
+### VSCode Setup
+
+Include the following as workspace settings:
+
+```json
+{
+    "css.validate": false,
+    "stylelint.enable": true, // Enable sytlelint
+    "vetur.validation.style": false
+}
+```
 
 Commmands used for development and production.
 ### Nuxt Commands
