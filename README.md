@@ -78,7 +78,7 @@ Include the following as workspace settings:
 ```json
 {
     "css.validate": false,
-    "stylelint.enable": true, // Enable sytlelint
+    "stylelint.enable": true,
     "vetur.validation.style": false
 }
 ```
@@ -165,7 +165,7 @@ jobs:
 ## Built With
 
 * [NuxtJS](https://nuxtjs.org/) - The Intuitive Vue Framework used
-* [tailwindcss](https://tailwindcss.com/) - The utility-first CSS framework used
+* [windicss](https://github.com/windicss/windicss) - The utility-first CSS framework used
 * [semantic-pull-requests](https://github.com/zeke/semantic-pull-requests) - GitHub status check used to ensure semantic pull requests and commits
 * [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) - GitHub Action used for deployment
 
